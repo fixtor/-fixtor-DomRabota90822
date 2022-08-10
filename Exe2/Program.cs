@@ -4,7 +4,7 @@ if (number < 100)
     Console.WriteLine($"Вы ввели число меньше трехзначного {number} и нет третьей цифры");
 else
 {
-    while (number >= 999)
+    while (number > 999)
     {
         number = number / 10;
     }
