@@ -8,5 +8,5 @@ else
     {
         number = number / 10;
     }
-    Console.WriteLine($"число во втором регистре: {number % 10}");
+    Console.WriteLine($"число во третьем регистре: {number % 10}");
 }
