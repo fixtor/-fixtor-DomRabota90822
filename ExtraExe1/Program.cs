@@ -1,7 +1,7 @@
 ﻿Console.Clear();
 Console.WriteLine("Введите диапазон чисел от n1");
 int n1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(" до n2");
+Console.WriteLine("Введите число до n2");
 int n2 = Convert.ToInt32(Console.ReadLine());
 int temp = 0;
 if (n1 < n2)
